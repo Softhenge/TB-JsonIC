@@ -2,16 +2,16 @@
 
 TensorBox Json Input Creator
 
-##1 Description
+## 1. Description
 The purpose of this tool to simplify the process of input json file creation for [Tensorbox](https://github.com/Russell91/TensorBox).
 
 The application provides interface to load images and select the regions of interests and save them into a json file in the expected format of Tensorbox.
 
-##2. Building/Running
+## 2. Building/Running
 This is a Qt project.
 Just open the project in [Qt Creator](https://www1.qt.io/download-open-source/?hsCtaTracking=f977210e-de67-475f-a32b-65cec207fd03%7Cd62710cd-e1db-46aa-8d4d-2f1c1ffdacea#section-2), build and run.
 
-##3. Usage
+## 3. Usage
 1. Open an image or image directory from menu (`File` -> `Open` or `Open File`)
 2. On the loaded image select the Region of Interest (coordinates of selected rectange are shown in the right side of the image: x1, y1, x2, y2) and click `Save`.
 3. Click `Flush To File` to store the saved areas into the file. It is located in the working directory and named `input.json`.
